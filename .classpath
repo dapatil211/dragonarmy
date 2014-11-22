@@ -7,5 +7,7 @@
 	<classpathentry kind="lib" path="C:/Users/darshan/workspace/IntuitHack/hadoop-mapreduce-client-core-2.0.2-alpha.jar"/>
 	<classpathentry kind="lib" path="C:/Users/darshan/workspace/IntuitHack/commons-cli-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/darshan/workspace/IntuitHack/hadoop-core-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshan/workspace/IntuitHack/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshan/workspace/IntuitHack/commons-logging-1.2-javadoc.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
