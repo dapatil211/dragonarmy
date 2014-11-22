@@ -81,7 +81,9 @@ public class SVMLearn{
 		}
 	 }
 	public class InpFormat extends FileInputFormat<IntWritable, Text> {
-
+		public InpFormat() {
+			// TODO Auto-generated constructor stub
+		}
 		@Override
 		public RecordReader<IntWritable, Text> getRecordReader(InputSplit input,
 				JobConf job, Reporter reporter) throws IOException {
@@ -89,6 +91,7 @@ public class SVMLearn{
 			reporter.setStatus(input.toString());
 		    return new InpRecordReader(job, (FileSplit)input);
 		}
+		
 	}
 	static int block = 0;
 
