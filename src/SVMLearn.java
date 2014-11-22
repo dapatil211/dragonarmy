@@ -19,6 +19,7 @@ public class SVMLearn{
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
+		
 		JobConf conf = new JobConf(SVMLearn.class);
 		conf.setJobName("wordcount");
 		conf.setOutputKeyClass(IntWritable.class);
